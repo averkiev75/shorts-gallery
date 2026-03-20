@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Галерея Shorts</title>
+<style>
+body{font-family:Arial;background:#f4f6f8;margin:0;padding:20px}
+h1{margin-bottom:10px}
+.search{margin-bottom:15px}
+input{padding:10px;width:300px;border-radius:8px;border:1px solid #ccc}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:white;border-radius:12px;overflow:hidden;transition:.2s}
+.card:hover{transform:translateY(-3px)}
+.thumb{width:100%;aspect-ratio:9/16;object-fit:cover}
+.label{padding:10px;font-weight:bold}
+.hidden{display:none}
+</style>
+</head>
+<body>
+
+<h1>Галерея Shorts (view only)</h1>
+<p>Видео: 112</p>
+
+<div class="search">
+<input id="search" placeholder="Поиск...">
+</div>
+
+<div class="grid" id="grid">
+
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/HV1UJNN77hU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/HV1UJNN77hU/hqdefault.jpg" alt="Кристина и Ксюша Невозможно удержаться">
+      </a>
+      <div class="body">
+        <div class="label">Кристина и Ксюша Невозможно удержаться</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/vi26rJBbqeM" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/vi26rJBbqeM/hqdefault.jpg" alt="Ира">
+      </a>
+      <div class="body">
+        <div class="label">Ира</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/qrHIYoXc-TM" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/qrHIYoXc-TM/hqdefault.jpg" alt="Ира Опрос">
+      </a>
+      <div class="body">
+        <div class="label">Ира Опрос</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/HAxP_U63lTI" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/HAxP_U63lTI/hqdefault.jpg" alt="Аня">
+      </a>
+      <div class="body">
+        <div class="label">Аня</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/vVKECtUETuo" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/vVKECtUETuo/hqdefault.jpg" alt="Рома Начальник сам приготовил кофе">
+      </a>
+      <div class="body">
+        <div class="label">Рома Начальник сам приготовил кофе</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/YHKbDsMz_FU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/YHKbDsMz_FU/hqdefault.jpg" alt="Даша Кофейный фристайл">
+      </a>
+      <div class="body">
+        <div class="label">Даша Кофейный фристайл</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Msvdq_6UiB4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Msvdq_6UiB4/hqdefault.jpg" alt="Выбор очевиден">
+      </a>
+      <div class="body">
+        <div class="label">Выбор очевиден</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/580kJuHbCrU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/580kJuHbCrU/hqdefault.jpg" alt="Денис и Ксюша">
+      </a>
+      <div class="body">
+        <div class="label">Денис и Ксюша</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/ZqFkIQ-_6lA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/ZqFkIQ-_6lA/hqdefault.jpg" alt="Денис Скидка">
+      </a>
+      <div class="body">
+        <div class="label">Денис Скидка</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/e64ZPpiUuNA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/e64ZPpiUuNA/hqdefault.jpg" alt="Ира и мотивация">
+      </a>
+      <div class="body">
+        <div class="label">Ира и мотивация</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/LzQXb6f0gpA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/LzQXb6f0gpA/hqdefault.jpg" alt="Ира и сахар">
+      </a>
+      <div class="body">
+        <div class="label">Ира и сахар</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/DdYC28m8EIA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/DdYC28m8EIA/hqdefault.jpg" alt="Ира - Почему?">
+      </a>
+      <div class="body">
+        <div class="label">Ира - Почему?</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Pdaja_tAmHY" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Pdaja_tAmHY/hqdefault.jpg" alt="Ира и irish кофе">
+      </a>
+      <div class="body">
+        <div class="label">Ира и irish кофе</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/RtQq21Ta9S4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/RtQq21Ta9S4/hqdefault.jpg" alt="Ира">
+      </a>
+      <div class="body">
+        <div class="label">Ира</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/L3K_qf3s7n8" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/L3K_qf3s7n8/hqdefault.jpg" alt="Рома и Ира команда">
+      </a>
+      <div class="body">
+        <div class="label">Рома и Ира команда</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/VSYP2qJLpWU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/VSYP2qJLpWU/hqdefault.jpg" alt="Даша - что на душе">
+      </a>
+      <div class="body">
+        <div class="label">Даша - что на душе</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/DCoH0shDREs" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/DCoH0shDREs/hqdefault.jpg" alt="Даша и сдача">
+      </a>
+      <div class="body">
+        <div class="label">Даша и сдача</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/-ezITptrxMs" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/-ezITptrxMs/hqdefault.jpg" alt="Даша и Ира Вопросы">
+      </a>
+      <div class="body">
+        <div class="label">Даша и Ира Вопросы</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/_gCwcZIqBAk" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/_gCwcZIqBAk/hqdefault.jpg" alt="Даша и макиато">
+      </a>
+      <div class="body">
+        <div class="label">Даша и макиато</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/T5qJGxggySA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/T5qJGxggySA/hqdefault.jpg" alt="Даша и много требований">
+      </a>
+      <div class="body">
+        <div class="label">Даша и много требований</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/2PiSKzdna5Y" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/2PiSKzdna5Y/hqdefault.jpg" alt="Даша Вот это поворот">
+      </a>
+      <div class="body">
+        <div class="label">Даша Вот это поворот</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/1Q3sYroJByU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/1Q3sYroJByU/hqdefault.jpg" alt="Даша &quot;Вот это поворот&quot; как снимали">
+      </a>
+      <div class="body">
+        <div class="label">Даша &quot;Вот это поворот&quot; как снимали</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/ancO0cKUVMw" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/ancO0cKUVMw/hqdefault.jpg" alt="Даша о работе">
+      </a>
+      <div class="body">
+        <div class="label">Даша о работе</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/_-q76GpI7Iw" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/_-q76GpI7Iw/hqdefault.jpg" alt="Аня и татуировки">
+      </a>
+      <div class="body">
+        <div class="label">Аня и татуировки</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Demc4XqPY-Q" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Demc4XqPY-Q/hqdefault.jpg" alt="Аня и акция">
+      </a>
+      <div class="body">
+        <div class="label">Аня и акция</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/h-GUFhP4Hcw" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/h-GUFhP4Hcw/hqdefault.jpg" alt="Аня зумер">
+      </a>
+      <div class="body">
+        <div class="label">Аня зумер</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/DHsL7kCnOVE" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/DHsL7kCnOVE/hqdefault.jpg" alt="Ксюша и Аня">
+      </a>
+      <div class="body">
+        <div class="label">Ксюша и Аня</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/EzlKikr6uOQ" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/EzlKikr6uOQ/hqdefault.jpg" alt="Ксюша Никита и воспоминания">
+      </a>
+      <div class="body">
+        <div class="label">Ксюша Никита и воспоминания</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/puqsdr9usTo" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/puqsdr9usTo/hqdefault.jpg" alt="Ксюша побыстрее">
+      </a>
+      <div class="body">
+        <div class="label">Ксюша побыстрее</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/HEo90v2ApmI" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/HEo90v2ApmI/hqdefault.jpg" alt="Ксюша кофейный гуру">
+      </a>
+      <div class="body">
+        <div class="label">Ксюша кофейный гуру</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/XiooXz_EuhE" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/XiooXz_EuhE/hqdefault.jpg" alt="Ксюша">
+      </a>
+      <div class="body">
+        <div class="label">Ксюша</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/l0zuajfkdXE" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/l0zuajfkdXE/hqdefault.jpg" alt="Ксюша и стакан">
+      </a>
+      <div class="body">
+        <div class="label">Ксюша и стакан</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/eHxHE8IYkp4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/eHxHE8IYkp4/hqdefault.jpg" alt="Кристина">
+      </a>
+      <div class="body">
+        <div class="label">Кристина</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/pEcYoa--tLk" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/pEcYoa--tLk/hqdefault.jpg" alt="Кристина и Решала">
+      </a>
+      <div class="body">
+        <div class="label">Кристина и Решала</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/9v5VGupFbZw" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/9v5VGupFbZw/hqdefault.jpg" alt="Денис да ладно">
+      </a>
+      <div class="body">
+        <div class="label">Денис да ладно</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/_USzQXrDWoQ" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/_USzQXrDWoQ/hqdefault.jpg" alt="Денис Что для Вас важнее?">
+      </a>
+      <div class="body">
+        <div class="label">Денис Что для Вас важнее?</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Or-lNiMwHFs" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Or-lNiMwHFs/hqdefault.jpg" alt="Денис Вы должны больше улыбаться">
+      </a>
+      <div class="body">
+        <div class="label">Денис Вы должны больше улыбаться</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/6-3MbB02lt8" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/6-3MbB02lt8/hqdefault.jpg" alt="Денис Начальник помогает работать">
+      </a>
+      <div class="body">
+        <div class="label">Денис Начальник помогает работать</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/1NQNkR9rAN4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/1NQNkR9rAN4/hqdefault.jpg" alt="Денис">
+      </a>
+      <div class="body">
+        <div class="label">Денис</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/vUY5P-ciNrM" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/vUY5P-ciNrM/hqdefault.jpg" alt="Денис Начальник сам приготовил капучино">
+      </a>
+      <div class="body">
+        <div class="label">Денис Начальник сам приготовил капучино</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Ki31FXoQLg8" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Ki31FXoQLg8/hqdefault.jpg" alt="Андрей Сырники">
+      </a>
+      <div class="body">
+        <div class="label">Андрей Сырники</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/hYaScVh_eE0" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/hYaScVh_eE0/hqdefault.jpg" alt="Ира и Андрей поддержка">
+      </a>
+      <div class="body">
+        <div class="label">Ира и Андрей поддержка</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/wER2Irx8ZYg" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/wER2Irx8ZYg/hqdefault.jpg" alt="Андрей Как рыба в воде">
+      </a>
+      <div class="body">
+        <div class="label">Андрей Как рыба в воде</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Vi-gBUuh1jU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Vi-gBUuh1jU/hqdefault.jpg" alt="Андрей">
+      </a>
+      <div class="body">
+        <div class="label">Андрей</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/EATmmI8Xdvk" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/EATmmI8Xdvk/hqdefault.jpg" alt="Андрей Лучшая работа в мире">
+      </a>
+      <div class="body">
+        <div class="label">Андрей Лучшая работа в мире</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/DL3ea8536t4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/DL3ea8536t4/hqdefault.jpg" alt="Андрей">
+      </a>
+      <div class="body">
+        <div class="label">Андрей</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/g36gT7OFYiY" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/g36gT7OFYiY/hqdefault.jpg" alt="Андрей видео без эмоций">
+      </a>
+      <div class="body">
+        <div class="label">Андрей видео без эмоций</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/PZt0zSYV--Q" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/PZt0zSYV--Q/hqdefault.jpg" alt="Даша и Андрей">
+      </a>
+      <div class="body">
+        <div class="label">Даша и Андрей</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/YO2IG9Qml00" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/YO2IG9Qml00/hqdefault.jpg" alt="Никита">
+      </a>
+      <div class="body">
+        <div class="label">Никита</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/oR28j_EuUVU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/oR28j_EuUVU/hqdefault.jpg" alt="Аня и начальник">
+      </a>
+      <div class="body">
+        <div class="label">Аня и начальник</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/FrkGaVt_A3k" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/FrkGaVt_A3k/hqdefault.jpg" alt="Аня Иллюзия выбора">
+      </a>
+      <div class="body">
+        <div class="label">Аня Иллюзия выбора</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/ji832xyHuFs" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/ji832xyHuFs/hqdefault.jpg" alt="Аня холодный латте">
+      </a>
+      <div class="body">
+        <div class="label">Аня холодный латте</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/J6R5AeTjhmo" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/J6R5AeTjhmo/hqdefault.jpg" alt="Макс Кто бариста">
+      </a>
+      <div class="body">
+        <div class="label">Макс Кто бариста</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/XwiXRQuJ-2A" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/XwiXRQuJ-2A/hqdefault.jpg" alt="Макс и комп">
+      </a>
+      <div class="body">
+        <div class="label">Макс и комп</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/MZ39wG67GKU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/MZ39wG67GKU/hqdefault.jpg" alt="Макс 20ка">
+      </a>
+      <div class="body">
+        <div class="label">Макс 20ка</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/41PBPBQPCLg" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/41PBPBQPCLg/hqdefault.jpg" alt="Макс Сдача">
+      </a>
+      <div class="body">
+        <div class="label">Макс Сдача</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Tck6hk4cVdA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Tck6hk4cVdA/hqdefault.jpg" alt="Макс">
+      </a>
+      <div class="body">
+        <div class="label">Макс</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/caYhmv3su1g" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/caYhmv3su1g/hqdefault.jpg" alt="Макс удивите меня">
+      </a>
+      <div class="body">
+        <div class="label">Макс удивите меня</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/GKL5Yp-b1FA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/GKL5Yp-b1FA/hqdefault.jpg" alt="Макс">
+      </a>
+      <div class="body">
+        <div class="label">Макс</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/ff3xLIZIqJc" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/ff3xLIZIqJc/hqdefault.jpg" alt="Денис">
+      </a>
+      <div class="body">
+        <div class="label">Денис</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/9fJHDnayNHY" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/9fJHDnayNHY/hqdefault.jpg" alt="Рома скидка пенсионерам">
+      </a>
+      <div class="body">
+        <div class="label">Рома скидка пенсионерам</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/zZkwHYRFZlk" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/zZkwHYRFZlk/hqdefault.jpg" alt="Рома Ожидание и реальность">
+      </a>
+      <div class="body">
+        <div class="label">Рома Ожидание и реальность</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/mHJHp29kKjU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/mHJHp29kKjU/hqdefault.jpg" alt="Рома и Денис Ожидание и реальность">
+      </a>
+      <div class="body">
+        <div class="label">Рома и Денис Ожидание и реальность</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/NxH43C-zlZA" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/NxH43C-zlZA/hqdefault.jpg" alt="Ира Макс В каждой кофейне есть такой гость">
+      </a>
+      <div class="body">
+        <div class="label">Ира Макс В каждой кофейне есть такой гость</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/fF_LrcdxSOQ" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/fF_LrcdxSOQ/hqdefault.jpg" alt="Ира Начальник решил помочь">
+      </a>
+      <div class="body">
+        <div class="label">Ира Начальник решил помочь</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/XfvrP6umi90" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/XfvrP6umi90/hqdefault.jpg" alt="Андрей Ира Начальник решил помочь">
+      </a>
+      <div class="body">
+        <div class="label">Андрей Ира Начальник решил помочь</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/IG3LIEdF6F4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/IG3LIEdF6F4/hqdefault.jpg" alt="Даша и последний гость">
+      </a>
+      <div class="body">
+        <div class="label">Даша и последний гость</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/8YX_FBF2A8M" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/8YX_FBF2A8M/hqdefault.jpg" alt="Даша">
+      </a>
+      <div class="body">
+        <div class="label">Даша</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/0-9o6pgAH7I" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/0-9o6pgAH7I/hqdefault.jpg" alt="Даша">
+      </a>
+      <div class="body">
+        <div class="label">Даша</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/hGdnjFj6KL0" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/hGdnjFj6KL0/hqdefault.jpg" alt="Даша Три главные ошибки">
+      </a>
+      <div class="body">
+        <div class="label">Даша Три главные ошибки</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/-oP28XfD4es" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/-oP28XfD4es/hqdefault.jpg" alt="Даша и сахар">
+      </a>
+      <div class="body">
+        <div class="label">Даша и сахар</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/i1LQ31DHrLU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/i1LQ31DHrLU/hqdefault.jpg" alt="Даша и сахар 2я версия">
+      </a>
+      <div class="body">
+        <div class="label">Даша и сахар 2я версия</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/sYgMXOkw4Lk" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/sYgMXOkw4Lk/hqdefault.jpg" alt="Даша Кто в итоге оплатил?">
+      </a>
+      <div class="body">
+        <div class="label">Даша Кто в итоге оплатил?</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/CZ4xtahjvsI" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/CZ4xtahjvsI/hqdefault.jpg" alt="Даша скрипты общения">
+      </a>
+      <div class="body">
+        <div class="label">Даша скрипты общения</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/cupGDX1SQ8g" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/cupGDX1SQ8g/hqdefault.jpg" alt="Даша опоздала">
+      </a>
+      <div class="body">
+        <div class="label">Даша опоздала</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/rLRaTrppUH8" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/rLRaTrppUH8/hqdefault.jpg" alt="Смотри как надо!">
+      </a>
+      <div class="body">
+        <div class="label">Смотри как надо!</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/4WGhmeGBnlw" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/4WGhmeGBnlw/hqdefault.jpg" alt="Рома гость с телефоном">
+      </a>
+      <div class="body">
+        <div class="label">Рома гость с телефоном</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/vPO50f4MjfI" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/vPO50f4MjfI/hqdefault.jpg" alt="Рома социофоб">
+      </a>
+      <div class="body">
+        <div class="label">Рома социофоб</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/5WHfVVNHVx0" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/5WHfVVNHVx0/hqdefault.jpg" alt="Рома предложение девушке">
+      </a>
+      <div class="body">
+        <div class="label">Рома предложение девушке</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/TuVxyBsMiBI" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/TuVxyBsMiBI/hqdefault.jpg" alt="Рома">
+      </a>
+      <div class="body">
+        <div class="label">Рома</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/LgsIJVMTFGg" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/LgsIJVMTFGg/hqdefault.jpg" alt="Рома скидка">
+      </a>
+      <div class="body">
+        <div class="label">Рома скидка</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Tk7P-4MnlLs" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Tk7P-4MnlLs/hqdefault.jpg" alt="Рома и Ксюша">
+      </a>
+      <div class="body">
+        <div class="label">Рома и Ксюша</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/VuRH0YHwwjE" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/VuRH0YHwwjE/hqdefault.jpg" alt="Рома любимый бариста">
+      </a>
+      <div class="body">
+        <div class="label">Рома любимый бариста</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/ZE2k3NiOGNM" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/ZE2k3NiOGNM/hqdefault.jpg" alt="Даша2 и рисунок">
+      </a>
+      <div class="body">
+        <div class="label">Даша2 и рисунок</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/nmAKq5vCSu4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/nmAKq5vCSu4/hqdefault.jpg" alt="Даша2 и недовольный клиент">
+      </a>
+      <div class="body">
+        <div class="label">Даша2 и недовольный клиент</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/Bruz7-pRz0A" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/Bruz7-pRz0A/hqdefault.jpg" alt="Даша2 и латте">
+      </a>
+      <div class="body">
+        <div class="label">Даша2 и латте</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/DTwDgrzf9Zw" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/DTwDgrzf9Zw/hqdefault.jpg" alt="Даша2">
+      </a>
+      <div class="body">
+        <div class="label">Даша2</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/WveNBGRgmhs" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/WveNBGRgmhs/hqdefault.jpg" alt="Лера">
+      </a>
+      <div class="body">
+        <div class="label">Лера</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/XnTcrSpAy9I" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/XnTcrSpAy9I/hqdefault.jpg" alt="Лера">
+      </a>
+      <div class="body">
+        <div class="label">Лера</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/vzX8vg5mbA0" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/vzX8vg5mbA0/hqdefault.jpg" alt="Лера Премиальная карта">
+      </a>
+      <div class="body">
+        <div class="label">Лера Премиальная карта</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/FP-NflFw400" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/FP-NflFw400/hqdefault.jpg" alt="Ира рекомендует">
+      </a>
+      <div class="body">
+        <div class="label">Ира рекомендует</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/JbU6L5ndMuU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/JbU6L5ndMuU/hqdefault.jpg" alt="Ира 1:0 в пользу бариста">
+      </a>
+      <div class="body">
+        <div class="label">Ира 1:0 в пользу бариста</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/bFXQaefto2g" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/bFXQaefto2g/hqdefault.jpg" alt="Ира Минус сетевых кофеен">
+      </a>
+      <div class="body">
+        <div class="label">Ира Минус сетевых кофеен</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/iMqNHrSK6WQ" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/iMqNHrSK6WQ/hqdefault.jpg" alt="Ира последний миндальный круассан">
+      </a>
+      <div class="body">
+        <div class="label">Ира последний миндальный круассан</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/sNWxia3axHg" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/sNWxia3axHg/hqdefault.jpg" alt="Ира творожные кольца">
+      </a>
+      <div class="body">
+        <div class="label">Ира творожные кольца</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/iX22PVKBVo8" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/iX22PVKBVo8/hqdefault.jpg" alt="Ира где ошибка?">
+      </a>
+      <div class="body">
+        <div class="label">Ира где ошибка?</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/ee7vNS5hDFE" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/ee7vNS5hDFE/hqdefault.jpg" alt="Даша У Иры было лучше">
+      </a>
+      <div class="body">
+        <div class="label">Даша У Иры было лучше</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/_FD44lEBGAc" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/_FD44lEBGAc/hqdefault.jpg" alt="Денис смартфрны">
+      </a>
+      <div class="body">
+        <div class="label">Денис смартфрны</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/nGodkyWZhcY" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/nGodkyWZhcY/hqdefault.jpg" alt="Денис и ИИ">
+      </a>
+      <div class="body">
+        <div class="label">Денис и ИИ</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/FiOT3yi-uzU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/FiOT3yi-uzU/hqdefault.jpg" alt="Денис">
+      </a>
+      <div class="body">
+        <div class="label">Денис</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/7XluZ-2tsco" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/7XluZ-2tsco/hqdefault.jpg" alt="Денис Рад что поговорили">
+      </a>
+      <div class="body">
+        <div class="label">Денис Рад что поговорили</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/hoJfgjIw8g8" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/hoJfgjIw8g8/hqdefault.jpg" alt="Денис обслуживание">
+      </a>
+      <div class="body">
+        <div class="label">Денис обслуживание</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/qn8toPYziK4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/qn8toPYziK4/hqdefault.jpg" alt="Денис скидки">
+      </a>
+      <div class="body">
+        <div class="label">Денис скидки</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/W_aSKKvC87k" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/W_aSKKvC87k/hqdefault.jpg" alt="Денис">
+      </a>
+      <div class="body">
+        <div class="label">Денис</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/xrS2yvWNQp4" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/xrS2yvWNQp4/hqdefault.jpg" alt="Макс Ищем бариста">
+      </a>
+      <div class="body">
+        <div class="label">Макс Ищем бариста</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/-O6iA79RZQM" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/-O6iA79RZQM/hqdefault.jpg" alt="Макс Сторговался">
+      </a>
+      <div class="body">
+        <div class="label">Макс Сторговался</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/PHDVnz1T_6M" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/PHDVnz1T_6M/hqdefault.jpg" alt="Макс и виски">
+      </a>
+      <div class="body">
+        <div class="label">Макс и виски</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/E1bS6t-jLhk" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/E1bS6t-jLhk/hqdefault.jpg" alt="Денис и Макс">
+      </a>
+      <div class="body">
+        <div class="label">Денис и Макс</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/OPg6QT8flCg" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/OPg6QT8flCg/hqdefault.jpg" alt="Денис - кремень!">
+      </a>
+      <div class="body">
+        <div class="label">Денис - кремень!</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/8zRzRwbqoJ0" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/8zRzRwbqoJ0/hqdefault.jpg" alt="Денис утро">
+      </a>
+      <div class="body">
+        <div class="label">Денис утро</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/gTrMzWn_uS0" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/gTrMzWn_uS0/hqdefault.jpg" alt="Денис удача">
+      </a>
+      <div class="body">
+        <div class="label">Денис удача</div>
+      </div>
+    </div>
+    <div class="card">
+      <a href="https://www.youtube.com/shorts/xIwuXKCcxpU" target="_blank">
+        <img class="thumb" src="https://img.youtube.com/vi/xIwuXKCcxpU/hqdefault.jpg" alt="Никита интернет">
+      </a>
+      <div class="body">
+        <div class="label">Никита интернет</div>
+      </div>
+    </div>
+</div>
+
+<script>
+const input = document.getElementById('search');
+const cards = document.querySelectorAll('.card');
+
+input.addEventListener('input', function() {
+  const q = input.value.toLowerCase();
+  cards.forEach(function(card) {
+    const text = card.innerText.toLowerCase();
+    if(text.includes(q)) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+});
+</script>
+
+</body>
+</html>
